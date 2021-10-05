@@ -8,6 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
+
 public class User {
 
     @Getter
@@ -16,7 +17,6 @@ public class User {
 
     @Getter
     @Setter
-    private static String name_eq = "simple"; //переменная для сравнения по умолчанию
-
+    private static String nameEq = "simple";
 
 }

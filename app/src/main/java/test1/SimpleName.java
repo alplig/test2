@@ -16,7 +16,7 @@ public class SimpleName {
     private static List<String> filterUser() {
         User user = new User();
         return user.getName().stream()
-                .filter(x -> x.toLowerCase().contains(User.getName_eq().toLowerCase()))
+                .filter(x -> x.toLowerCase().contains(User.getNameEq().toLowerCase()))
                 .collect(Collectors.toList());
     }
 }
